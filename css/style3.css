@@ -11,7 +11,6 @@
     width: 80%;
     margin: auto;
     overflow: hidden;
-   background-color: aquamarine;
 }
 
 #main-header{
@@ -51,28 +50,88 @@
 
 
 #leftbox{
-    
+    width: 33.3%;
+    min-height: 470px;
+    float: left;
+    background-image: url('../images/Nordic_Luxury.jpg');
+    background-position: center right;
+    background-size: 120%;
+    margin-bottom: 20px;
+}
+
+#rightbox{
+    width: 33.3%;
+    min-height: 470px;
+    float: left;
+    background-image: url('../images/Athleisure.jpg');
+    background-position: center;
+    background-size: 160%;
+    margin-bottom: 20px;
+}
+
+#midbox{
+    width: 33.3%;
+    min-height: 470px;
+    float: left;
+    background-image: url('../images/golf.jpg');
+    background-position: center right;
+    background-size: 230%;
+    margin-bottom: 20px;
 }
 
 
-/*  
-#showcase{
-    background-image: url('../images/G_color.gif');
-    background-position: center right;
-    min-height: 300px;
-    margin-bottom: 30px;
-    text-align: center;
-
-
-
-#showcase h1{
+#leftbox h1{
     color: #ffffff;
     font-size: 45px;
     line-height: 1.6em;
     padding-top: 250px;
+    padding-left: 70px;
     font-weight: 545;
 }
 
+#leftbox :hover{
+    color: red;
+}
+
+#leftbox :active{
+    color: rgb(240, 211, 43);
+}
+
+
+#midbox h1{
+    color: #ffffff;
+    font-size: 45px;
+    line-height: 1.6em;
+    padding-top: 250px;
+    padding-left: 70px;
+    font-weight: 545;
+   
+}
+
+#midbox :hover{
+    color: red;
+}
+#midbox :active{
+    color: rgb(240, 211, 43);
+}
+
+
+#rightbox h1{
+    color: #ffffff;
+    font-size: 45px;
+    line-height: 1.6em;
+    padding-top: 250px;
+    padding-left: 60px;
+    font-weight: 545;
+}
+
+#rightbox :hover{
+    color: red;
+}
+
+#rightbox :active{
+    color: rgb(240, 211, 43);
+}
 
 #main{
     float: left;
@@ -81,38 +140,16 @@
     box-sizing: border-box;
 }
 
-#sidebar a{
+#sidebar{
     float: right;
+    width: 30%;
+    background: #333333;
     color: #ffffff;
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: 500;
-    padding-right: 35px;
-    padding-top: 200px;
+    padding: 30px 30px;
+    box-sizing: border-box;
 }
 
-#sidebar a:hover{
-    color: red;
-}
 
-#sidebar a:active{
-    color: rgb(240, 211, 43);
-}
-
-.box {
-    height: 250px;
-    width: 280px;
-    background-image: url('../images/CADS.jpg');
-    background-size: 90%;
-    background-position: center right;  
-    padding: 20px;
-    margin: 50px auto;
-    float: right;
-    border: 0px;
-
-}
-
-*/
 #main-footer{
     background: #333333;
     color: #ffffff;
