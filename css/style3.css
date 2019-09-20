@@ -11,7 +11,7 @@
     width: 80%;
     margin: auto;
     overflow: hidden;
-
+   background-color: aquamarine;
 }
 
 #main-header{
@@ -49,13 +49,20 @@
     color: rgb(240, 211, 43);
 }
 
-#showcase{ 
+
+#leftbox{
+    
+}
+
+
+/*  
+#showcase{
     background-image: url('../images/G_color.gif');
     background-position: center right;
     min-height: 300px;
     margin-bottom: 30px;
     text-align: center;
-}
+
 
 
 #showcase h1{
@@ -105,7 +112,7 @@
 
 }
 
-
+*/
 #main-footer{
     background: #333333;
     color: #ffffff;
@@ -113,6 +120,8 @@
     padding: 10px 30px;
     margin-top: 40px
 }
+
+
 
 @media(max-widtgh: 600px){
   #main{
