@@ -16,7 +16,7 @@ body {
 #main-header {
   /* position: fixed;
     top: 0;*/ /*not sure how to make keep the size and make it fixed*/
-  background-color: rgb(250, 86, 35);
+  background-color: rgb(250, 64, 8);
   color: #ffffff;
 }
 
@@ -53,6 +53,9 @@ body {
 #showcase {
   background-image: url("../images/showcase.jpg");
   background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: 130%; */
   min-height: 300px;
   margin-bottom: 30px;
   text-align: center;
