@@ -49,6 +49,15 @@
 }
 
 
+.cards {
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+
+
+
 #leftbox{
     width: 33.3%;
     min-height: 470px;
